@@ -10,17 +10,12 @@
             margin: 0;
             background-color: wheat;
             box-sizing: border-box;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
         header {
             width: 100%;
-            height: 30vh;
+            height: 100vh;
             position: relative;
-            background: url("Image/InShot_20250427_210621141.png");
-            background-size: 40% 80%;
-            background-repeat: no-repeat;
-            background-position: bottom right;
         }
 
         nav {
@@ -93,8 +88,6 @@
             text-decoration: none;
             border-radius: 8px;
             padding: 10px 20px;
-            margin-right: 10px;
-            display: inline-block;
         }
 
         #button1 {
@@ -116,55 +109,11 @@
         #pizza img {
             transition: 0.4s ease;
         }
-
-        .items {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 40px 20px;
-        }
-
-        .item {
-            text-align: center;
-            background: #fff;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            width: 180px;
-        }
-
-        .item img {
-            width: 100%;
-            height: 120px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
-        .item h4 {
-            margin: 10px 0;
-        }
-
-        .item button {
-            background-color: crimson;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: greenyellow;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
 
-<header> 
+<header style="background: url('Image/InShot_20250427_210621141.png'); background-size: 40% 80%; background-repeat: no-repeat; background-position: bottom right;">
     <nav>
         <div class="logo">F<span>oo</span>die place</div>
         <div class="menu">
@@ -194,66 +143,6 @@
         <img src="Image/InShot_20250427_214505270.png" width="100">
     </div>
 </header>
-
-<section class="items">
-    <div class="item">
-        <img src="Image/pizzaa.jpeg" alt="Pizza">
-        <h4>Pizza</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/burger.jpeg" alt="Burger">
-        <h4>Burger</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/noodles.jpeg" alt="Noodles">
-        <h4>Noodles</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/sandwhitch.jpeg" alt="Sandwich">
-        <h4>Sandwich</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/fries.jpeg" alt="Fries">
-        <h4>Fries</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/dessert.jpeg" alt="Dessert">
-        <h4>Dessert</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/coffee.jpeg" alt="Coffee">
-        <h4>Coffee</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/juice.jpeg" alt="Juice">
-        <h4>Juice</h4>
-        <button>Order</button>
-    </div>
-
-    <div class="item">
-        <img src="Image/momos.jpeg" alt="Momos">
-        <h4>Momos</h4>
-        <button>Order</button>
-    </div>
-</section>
-
-<footer>
-    ©2025 Foodie Place. All rights reserved.
-</footer>
 
 </body>
 </html>
